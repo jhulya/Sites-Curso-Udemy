@@ -1,0 +1,156 @@
+/*limpar formatações padrão*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 1em;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    background: #e6e6e6;
+}
+h1{
+    font-size: 3em;
+}
+
+h1, h2, h3 {
+    color:#4c8d02;
+}
+
+h2{
+    text-align: center;
+    font-size: 27px;
+}
+
+h3{
+    background: rgb(166, 228, 125);
+    padding: 5px;
+    text-align: center;
+}
+
+h4{
+    background: #4c8d02;
+    font-size: 20px;
+    color: white;
+    display: inline;
+    padding: 1px 5px;
+    margin-bottom: 10px;
+}
+
+img{
+    margin-top: 10px;
+    margin: 10px auto;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+a:link, a:visited {
+    color: #4c8d02;
+}
+
+a:hover {
+    color: rgb(166, 228, 125);
+    text-decoration: underline;
+    
+}
+
+/*ids*/
+#area-cabecalho a {
+    font-size: 1.2em;
+    text-decoration: none;
+}
+
+#area-cabecalho a:link, #area-cabecalho a:visited {
+    color: white;
+    padding: 5px 30px;
+}
+
+#area-cabecalho a:hover {
+    color: rgb(166, 228, 125);
+    background: white;
+    padding: 3px 30px;
+    
+}
+#area-cabecalho a:active{
+    color: #4c8d02;
+}
+
+#area-cabecalho{
+    background-color: rgb(166, 228, 125);
+    padding: 7px;
+    text-align: center;
+}
+
+#area-logo, #area-menu {
+    padding: 5px;
+}
+
+#area-principal {
+    width: 920px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+#area-postagens {
+    width: 660px;
+    float: left;
+}
+
+#area-lateral {
+    width: 240px;
+    float: right;
+}
+
+#rodape {
+    clear: both;
+    color: #4c8d02;
+    font-size: 1.1em;
+    text-align: center;
+    padding: 15px;
+}
+
+#area-sobre{
+    width: 920px;
+}
+
+#area-contato{
+    width: 920px;
+}
+
+/*classes*/
+.blog{
+    color: white;
+}
+
+.postagem{
+    padding: 20px;
+    margin-bottom: 20px;
+    background: white;
+}
+
+.data {
+    color: rgb(146, 146, 146);
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.conteudo-lateral{
+    background: white;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.postagem-lateral{
+    font-size: 0.9em;
+    padding: 5px;
+    border-bottom: 1px solid rgb(146, 146, 146);
+}
+
+.contato{
+    color: #4c8d02;
+    font-size: 18px;
+}
